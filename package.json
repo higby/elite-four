@@ -1,6 +1,6 @@
 {
   "name": "elite-four",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": ".eleventy.js",
   "scripts": {
@@ -28,7 +28,7 @@
     "markdown-it-image-figures": "^2.0.0",
     "markdown-it-mark": "^3.0.1",
     "moment-timezone": "^0.5.33",
-    "node-fetch": "^3.0.0",
+    "node-fetch": "^2.6.1",
     "sharp": "^0.29.1"
   }
 }
