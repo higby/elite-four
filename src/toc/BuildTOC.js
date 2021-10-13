@@ -20,7 +20,7 @@ const BuildTOC = (text, opts) => {
   const headings = NestHeadings(tags, $)
 
   return headings.length > 0
-    ? `<${wrapper}>
+    ? `<p>Table of Contents</p><${wrapper}>
         ${BuildList(headings, ul, flat)}</${wrapper}>`
     : undefined
 }
